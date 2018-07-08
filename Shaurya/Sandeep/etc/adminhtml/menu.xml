@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Shaurya_Sandeep::parent" title="Shaurya Info Hub" module="Shaurya_Sandeep" sortOrder="100" resource="Shaurya_Sandeep::parent"/>
+        <add id="Shaurya_Sandeep::index" title="Contact Form" module="Shaurya_Sandeep" sortOrder="10" action="sandeep/index" resource="Shaurya_Sandeep::index" parent="Shaurya_Sandeep::parent"/>
+		
+    </menu>
+</config>
